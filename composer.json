@@ -1,0 +1,32 @@
+{
+	"name": "potenzaglobalsolutions/cardealer",
+	"description": "Car Dealer - The Best Car Dealer Automotive Responsive WordPress Theme.",
+	"homepage": "http://www.potenzaglobalsolutions.com/",
+	"type": "wordpress-theme",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Dinesh Kesharwani",
+			"email": "dinesh.kesarwani@potenzaglobalsolutions.com",
+			"homepage": "https://gitlab.com/dinesh4monto/cardealer"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"wptrt/wpthemereview": "^0.2.1",
+		"phpcompatibility/phpcompatibility-wp": "^2.1.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+		"roave/security-advisories": "dev-master"
+	},
+	"scripts": {
+		"phpcs-i": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -i",
+		"lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+		"format": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf"
+	},
+	"support": {
+		"issues": "https://gitlab.com/dinesh4monto/cardealer/issues",
+		"source": "https://gitlab.com/dinesh4monto/cardealer/"
+	}
+}
